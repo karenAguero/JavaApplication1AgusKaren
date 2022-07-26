@@ -6,7 +6,7 @@ package javaapplication1.agus.karen;
 
 /**
  *
- * @author KA
+ * @author KAren
  */
 public class JavaApplication1AgusKaren {
 
