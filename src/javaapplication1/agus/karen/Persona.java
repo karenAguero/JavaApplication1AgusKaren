@@ -108,7 +108,7 @@ public class Persona {
     }
     
     public String comprobarSexo () {
-        
+        String sexo = 
     }
 
 }
