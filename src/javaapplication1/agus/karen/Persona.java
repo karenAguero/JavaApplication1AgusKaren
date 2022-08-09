@@ -49,9 +49,7 @@ public class Persona {
     public void setEdad (int valorEdad) {
         edad = valorEdad; 
     } 
-    public void setDni (int valorDni) {
-        dni = valorDni; 
-    } 
+
     public void setSexo (String valorSexo) {
         sexo = valorSexo; 
     } 
@@ -91,5 +89,17 @@ public class Persona {
         }
         return s;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + ", sexo=" + sexo + ", peso=" + peso + ", altura=" + altura + '}';
+    }
+    public int generaDNI(){
+        int numero = (int)(Math. random()*8+1); 
+        return numero; 
+    }
+
+
+  
 } 
 
