@@ -85,6 +85,15 @@ public class Persona {
         }
     }
     
+    public boolean esMayorDeEdad() {
+        if (edad < 18){
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    
     public char comprobarSexo (char s) {
         if(s!='M' || s!='H'){
             s='H';
